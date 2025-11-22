@@ -333,6 +333,8 @@ FW_VERSIONS = {
       b'57114-T1W-A240\x00\x00',
       b'57114-TFF-A930\x00\x00',
       b'57114-TFF-A940\x00\x00',
+      b'57114-T0N-Q820\x00\x00',
+      b'\x0b42583651191\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-T0A-A230\x00\x00',
@@ -341,6 +343,12 @@ FW_VERSIONS = {
       b'36161-T1W-A830\x00\x00',
       b'36161-T1W-C830\x00\x00',
       b'36161-T1X-A830\x00\x00',
+      b'36161-T0N-S530\x00\x00',
+      b'\x0e  0NL410005353\x00\x00',
+    ],
+    (Ecu.combinationMeter, 0x18da60f1, None): [
+      b'78109-T0N-N030\x00\x00',
+      b'\x18F0560011\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
   CAR.HONDA_CRV_5G: {
@@ -420,13 +428,9 @@ FW_VERSIONS = {
   CAR.HONDA_CRV_EU: {
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-T1V-G920\x00\x00',
-      b'57114-T0N-Q820\x00\x00',
-      b'\x0b42583651191\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36161-T1V-G520\x00\x00',
-      b'36161-T0N-S530\x00\x00',
-      b'\x0e  0NL410005353\x00\x00',
     ],
     (Ecu.shiftByWire, 0x18da0bf1, None): [
       b'54008-T1V-G010\x00\x00',
@@ -437,12 +441,7 @@ FW_VERSIONS = {
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-T1G-G940\x00\x00',
-    ],
-    (Ecu.combinationMeter, 0x18da60f1, None): [
-        # existing entries for this key, if any
-        b'78109-T0N-N030\x00\x00',
-        b'\x18F0560011\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
-    ],
+    ]
   },
   CAR.HONDA_CRV_HYBRID: {
     (Ecu.vsa, 0x18da28f1, None): [
