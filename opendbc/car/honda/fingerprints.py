@@ -423,12 +423,12 @@ FW_VERSIONS = {
     (Ecu.vsa, 0x18da28f1, None): [
       b'57114-T1V-G920\x00\x00',
             # New:
-      b'57114-T0N-Q820\x00\x00',
+      b'57114-T0N-Q820',
     ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36161-T1V-G520\x00\x00',
         # New:
-      b'36161-T0N-S530\x00\x00',
+      b'36161-T0N-S530',
     ],
     (Ecu.shiftByWire, 0x18da0bf1, None): [
       b'54008-T1V-G010\x00\x00',
