@@ -439,7 +439,7 @@ FW_VERSIONS = {
     ],
     (Ecu.srs, 0x18da53f1, None): [
       b'77959-T1G-G940\x00\x00',
-    ]
+    ],
     (Ecu.combinationMeter, 0x18DA60F1, None): [
       b'78109-T0N-N030',
     ],
