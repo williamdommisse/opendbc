@@ -293,7 +293,7 @@ class CAR(Platforms):
   HONDA_CRV = HondaNidecPlatformConfig(
     [HondaCarDocs("Honda CR-V 2015-16", "Touring Trim", min_steer_speed=12. * CV.MPH_TO_MS)],
     CarSpecs(mass=3572 * CV.LB_TO_KG, wheelbase=2.62, steerRatio=16.89, centerToFrontRatio=0.41, tireStiffnessFactor=0.444),  # as spec
-    radar_dbc_dict('honda_crv_touring_2016_can_generated'),
+    radar_dbc_dict('honda_civic_touring_2016_can_generated'),
     flags=HondaFlags.NIDEC_ALT_SCM_MESSAGES | HondaFlags.HAS_ALL_DOOR_STATES,
   )
   HONDA_CRV_EU = HondaNidecPlatformConfig(

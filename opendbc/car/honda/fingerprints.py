@@ -333,22 +333,18 @@ FW_VERSIONS = {
       b'57114-T1W-A240\x00\x00',
       b'57114-TFF-A930\x00\x00',
       b'57114-TFF-A940\x00\x00',
+      # New:
       b'57114-T0N-Q820\x00\x00',
-      b'\x0b42583651191\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
-    ],
-    (Ecu.srs, 0x18da53f1, None): [
-      b'77959-T0A-A230\x00\x00',
-    ],
+      ],
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'36161-T1W-A830\x00\x00',
       b'36161-T1W-C830\x00\x00',
       b'36161-T1X-A830\x00\x00',
+      # New:
       b'36161-T0N-S530\x00\x00',
-      b'\x0e  0NL410005353\x00\x00',
     ],
-    (Ecu.combinationMeter, 0x18da60f1, None): [
-      b'78109-T0N-N030\x00\x00',
-      b'\x18F0560011\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
+    (Ecu.srs, 0x18da53f1, None): [
+      b'77959-T0A-A230\x00\x00',
     ],
   },
   CAR.HONDA_CRV_5G: {
